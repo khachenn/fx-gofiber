@@ -4,7 +4,7 @@
 ```
 go install github.com/swaggo/swag/cmd/swag@1.8.7
 ```
-## 1. RUN environment
+## 1. Environment
 ```
     cd .development && docker compose up -d
 ```
