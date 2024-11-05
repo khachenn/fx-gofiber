@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sturdy-winner-api/model"
 
-	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/v2/bson"
 )
 
 func (h Handler) Users() ([]model.User, error) {
