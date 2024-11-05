@@ -34,6 +34,7 @@ func (svc UserService) Users() ([]dto.UserResponse, error) {
 	resp := []dto.UserResponse{}
 	for _, user := range userList {
 		resp = append(resp, dto.UserResponse{
+			ID:    user.ID.Hex(),
 			Email: user.Email,
 			Name:  user.Name,
 		})
